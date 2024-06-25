@@ -1,4 +1,4 @@
-package com.bevis.fileservice.services;
+package com.bevis.fileservice.services.healthcheck;
 
 import com.bevis.fileservice.dtos.responses.HealthCheckResp;
 

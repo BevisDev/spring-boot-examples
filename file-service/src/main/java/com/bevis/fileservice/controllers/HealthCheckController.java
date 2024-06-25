@@ -2,7 +2,7 @@ package com.bevis.fileservice.controllers;
 
 import com.bevis.fileservice.consts.ApiConst;
 import com.bevis.fileservice.dtos.responses.HealthCheckResp;
-import com.bevis.fileservice.services.IHealthCheckService;
+import com.bevis.fileservice.services.healthcheck.IHealthCheckService;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
