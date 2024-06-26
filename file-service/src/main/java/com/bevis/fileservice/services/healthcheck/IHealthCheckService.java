@@ -11,5 +11,4 @@ public interface IHealthCheckService {
      * @return result
      */
     HealthCheckResp getStatusSystem(boolean isDetail);
-
 }

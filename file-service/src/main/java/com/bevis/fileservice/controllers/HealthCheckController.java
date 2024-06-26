@@ -21,5 +21,4 @@ public class HealthCheckController {
     public HealthCheckResp getStatus(@RequestParam(value = "isDetail", required = false) boolean isDetail) {
         return _healthCheckService.getStatusSystem(isDetail);
     }
-
 }

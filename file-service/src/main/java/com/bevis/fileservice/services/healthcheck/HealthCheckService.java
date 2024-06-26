@@ -1,15 +1,17 @@
 package com.bevis.fileservice.services.healthcheck;
 
+import java.net.InetAddress;
+import java.util.Date;
+
+import org.springframework.stereotype.Service;
+
 import com.bevis.fileservice.configs.AppConfig;
 import com.bevis.fileservice.dtos.responses.HealthCheckResp;
+
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Service;
-
-import java.net.InetAddress;
-import java.util.Date;
 
 @Service
 @Slf4j
@@ -40,5 +42,4 @@ public class HealthCheckService implements IHealthCheckService {
         }
         return healthCheckResp;
     }
-
 }
