@@ -1,7 +1,8 @@
 package com.bevis.fileservice.services.excel;
 
-import com.bevis.fileservice.services.parent.IFileService;
+import org.springframework.http.ResponseEntity;
 
-public interface IExcelService extends IFileService {
+public interface IExcelService {
 
+    ResponseEntity<?> exportDataTest();
 }
